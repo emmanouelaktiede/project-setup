@@ -1,29 +1,29 @@
 .m-header {
     display: flex;
     align-items: center;
-    background-color: $color-background;
+    $t-color-background: white;
     box-sizing: border-box;
-    padding: $unit-xs;
+    padding: $t-unit-xs;
     color: $color-foreground;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: $color-primary;
+    border-bottom-color: $t-color-primary;
   
     .m-header__logo {
-      padding: $unit-xs;
+      padding: $t-unit-xs;
       font-weight: bold;
-      color: $color-primary;
-      font-size: $typo-large-size;
+      color: $t-color-primary;
+      font-size: $t-fontstyle-general;
     }
   
     .m-header__navigation {
-      padding: $unit-xs;
+      padding: $t-unit-xs;
       display: none;
   
       ul {
         li {
           display: inline-block;
-          margin-right: $unit-xs;
+          margin-right: $t-unit-xs;
   
           a {
             transition: all 0.2s;
@@ -31,14 +31,14 @@
             text-decoration: none;
   
             &:hover {
-              color: $color-primary;
+              color: $t-color-primary;
               text-decoration: underline;
             }
           }
   
           &.active {
             a {
-              color: $color-primary;
+              color: $t-color-primary;
               text-decoration: underline;
             }
           }
