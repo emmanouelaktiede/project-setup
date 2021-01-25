@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [yarn](https://yarnpkg.n¢com/) v1.22.10+
+- [yarn](https://yarnpkg.com/) v1.22.10+
 - [node.js](https://nodejs.org/en/) v14.15.1+
 
 ## Getting started
